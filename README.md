@@ -37,7 +37,7 @@ The site provides information about the organization, its mission and vision, av
 3. Ensure that the linked CSS file is in the same folder as the HTML file for correct styling.
 
 **📜 License**:
-This project is licensed under the MIT License – you are free to use, modify, and distribute the code with proper attribution. - see the (License)[Liscense] file for details.
+This project is licensed under the MIT License – you are free to use, modify, and distribute the code with proper attribution. - see the [License](LICENSE) file for details.
 
 **👨‍💻 Author**:
 Created by Thandiswa Cocoa Mzimela
