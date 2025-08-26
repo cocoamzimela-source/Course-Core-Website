@@ -24,9 +24,6 @@ The site provides information about the organization, its mission and vision, av
 - **Meet the Team** – Introduces the founder, developers, and support staff to build trust and connection with learners.  
 - **Call-to-Action Button (home page)** – Encourages users to start their learning journey immediately.  
 
-**💻Code Snippets**: 
-
-
 **🛠️ Technologies Used**:
 - HTML5: For semantic structure.
 - CSS3: For styling, layout, and color scheme.
