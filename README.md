@@ -39,4 +39,5 @@ This project is licensed under the MIT License – you are free to use, modify, 
 
 **👨‍💻 Author**:
 Created by Thandiswa Cocoa Mzimela
+<br>
 Email: cocoamzimela@gmail.com
