@@ -27,6 +27,7 @@ The site provides information about the organization, its mission and vision, av
 **🛠️ Technologies Used**:
 - HTML5: For semantic structure.
 - CSS3: For styling, layout, and color scheme.
+- Font Awesome Libraries: For fonts and social media icons. 
 
 **🚀 How to View / Run the Project**:
 1. Clone or download the project files.
