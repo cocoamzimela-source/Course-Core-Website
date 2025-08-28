@@ -1,4 +1,4 @@
-<p align="center"> <img width="1280" height="720" alt="logo new" src="https://github.com/user-attachments/assets/8e7a3c2d-450f-4dec-acf1-7516c5080da9" /></p>
+<p align="center"> <img width="500" height="500" alt="logo new" src="https://github.com/user-attachments/assets/8e7a3c2d-450f-4dec-acf1-7516c5080da9" /></p>
 
 # Course-Core-Website
 
@@ -40,4 +40,4 @@ This project is licensed under the MIT License – you are free to use, modify, 
 **👨‍💻 Author**:
 Created by Thandiswa Cocoa Mzimela
 <br>
-**Email**: cocoamzimela@gmail.com
+ **Email**: cocoamzimela@gmail.com
