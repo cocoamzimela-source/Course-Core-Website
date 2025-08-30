@@ -3,6 +3,7 @@
 # Course-Core-Website
 
 An educational platform empowering learners with real-world IT skills through interactive and affordable online courses.
+https://cocoamzimela-source.github.io/Course-Core-Website/
 
 **📌Purpose**:
 The purpose of the Course Core website is to serve as an educational platform that introduces and promotes a variety of IT courses. 
