@@ -1,0 +1,149 @@
+<!-- About Us page for Course Core with mission, vision, team, and reasons to choose us -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Core: About us</title> 
+  <!-- Link to external CSS stylesheet for styling the website -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    /* Main content area styles */
+    main {
+      padding: 40px;
+      color: #fff; /* Text color: white */
+    }
+    /* Section spacing */
+    section {
+      margin-bottom: 60px; /*Adds bottom margin between sections */
+    }
+    /* Headings color and spacing */
+    h1, h2, h3 {
+      color: #00bfff; /* Bright blue text */
+      margin-bottom: 15px;
+    }
+    /* List style for Why Choose Us section */
+    .why-choose-us ul {
+      list-style-type: disc; /* Bullet style with discs */
+      margin-left: 20px;    /* Indent list */
+    }
+    /* Grid layout for team members */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive columns */
+      gap: 20px;
+    }
+    /* Individual team member cards */
+    .team-member {
+      text-align: center;
+      background: #0f1e33;
+      padding: 20px;
+      border-radius: 10px; /* Rounded corners */
+    }
+    /* Team member image styling */
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Circular crop */
+      object-fit: cover; /* Cover image inside box */
+      margin-bottom: 10px;
+    }
+  </style>
+  <!-- Header section: Contains the Course Core logo and branding -->
+  <header>
+    <img src="images/logo new.png" alt="Course Core website logo" length="100" width="400">
+  </header>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about us.html">About us</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="contact us.html">Contact us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- Introduction to the Organization -->
+    <section class="about-intro">
+      <h1>About Course Core</h1>
+      <p>
+        Course Core was founded in 2023 by <b>Thandiswa Cocoa Mzimela</b> after completing her
+        Bachelor in Computer Science in South Africa. She recognized a gap in IT education where
+        students received a lot of theory and some practical work, but not enough to truly prepare
+        them for real jobs in IT companies.
+      </p>
+      <p>
+        Today, Course Core is run by Thandiswa, her team of front-end and back-end developers, and
+        experienced lecturers who are passionate about sharing their knowledge. Our purpose is to help
+        both beginners and professionals apply their skills practically, empowering developers to grow
+        and succeed in real IT environments.
+      </p>
+    </section>
+    <!-- Mission and Vision -->
+    <section class="mission-vision">
+      <h2>Our Mission</h2>
+      <p>
+        At Course Core, our mission is to close the gap between theory and practice in IT education.
+        We ensure developers don’t just learn concepts but actually use them in real projects and
+        workplaces.
+      </p>
+      <br>
+      <h2>Our Vision</h2>
+      <p>
+        We envision a world where every developer has the opportunity to grow, succeed, and contribute
+        meaningfully in the tech industry. Course Core aims to be a community that inspires learning,
+        empowers growth, and prepares developers for the future.
+      </p>
+    </section>
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li><b>Personalized Experience:</b> Weekly student feedback helps us adapt and maintain a high standard of education.</li>
+        <li><b>Interactive Learning:</b> Our online classes are not one-sided. Lecturers engage directly with students and are invested in their success.</li>
+        <li><b>Affordable Education:</b> We keep our courses accessible, ensuring that learners from all backgrounds can benefit.</li>
+      </ul>
+    </section>
+    <!-- Meet the Team -->
+    <section class="team">
+      <h2>Meet the Team:</h2>
+      <div class="team-grid">
+        <!-- Team Member: Founder -->
+        <div class="team-member">
+          <img src="images/Founder - Thandiswa .webp" alt="Thandiswa - Founder" length="300" width="300">
+          <h3>Thandiswa Mzimela</h3>
+          <h4><u>Founder & Director:</u></h4>
+          <p>The visionary behind Course Core. With a passion for creating opportunities through education, Thandiswa ensures that our mission and vision remain at the heart of everything we do.</p>
+        </div>
+        <!-- Team Member: Senior Developer -->
+        <div class="team-member">
+          <img src="images/ntokozo.avif" alt="Ntokozo Mngonyama - Senior Developer" length="200" width="200">
+          <h3>Ntokozo Mngonyama</h3>
+          <h4><u>Senior Developer & IT Management:</u></h4>
+          <p>Holding a Master’s in Computer Science and currently pursuing a PhD, Ntokozo brings deep technical expertise and innovative thinking to our courses. He is committed to making IT knowledge practical and relevant.</p>
+        </div>
+        <!-- Team Member: Finance -->
+        <div class="team-member">
+          <img src="images/Johnathon Workman- Finance.avif" alt="Johnathon Workman- Finance Manager" length="200" width="200">
+          <h3>Johnathon Workman</h3>
+          <h4><u>Finance & Operations:</u></h4>
+          <p>Overseeing the financial backbone of Course Core, this role ensures that we remain sustainable while keeping education affordable for all.</p>
+        </div>
+        <!-- Team Member: Student Support -->
+        <div class="team-member">
+          <img src="images/Carmen smith - student support.webp" alt="Student Support" length="300" width="300">
+          <h3>Carmen Smith</h3>
+          <h4><u>Student Support & Engagement:</u></h4>
+          <p>The friendly face for our learners, this role focuses on guiding students, addressing their needs, and making sure their learning journey is smooth and engaging.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <p>&copy;2025 Course Core. All rights reserved.</p>
+  </footer>
+</body>
+</html>

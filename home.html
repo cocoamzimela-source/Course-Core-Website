@@ -1,0 +1,102 @@
+<!-- Main landing page for Course Core website with introduction and course listings -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home:Course Core</title> 
+    <!-- Link to external CSS stylesheet for styling the website -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        /* Call-to-Action Button Styles */
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007BFF; /* Primary blue color */
+            color: #003049; /* Dark text for contrast */
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        /* Button hover effects */
+        .cta-button:hover {
+            background-color: #0056b3;  /* Darker blue on hover */
+            box-shadow: 0 0 15px #007BFF; /* Glow effect */
+        }
+        /* Heading styles for section titles */
+        h1, h3, h4 {
+            color: #00bfff; /* Bright blue */
+            margin-bottom: 15px;
+        }
+        /* Container layout */
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; /* Space between content and aside */
+        }
+        /* Main hero section styling */
+        .hero-section {
+            flex: 3; /* The hero section will take up 3 times more space */
+            padding: 20px; /* Inner spacing */
+        }
+        /* Aside bar styling */
+        .aside-bar {
+            flex: 1; /* The aside bar will take up 1 part of the space */
+            width: 250px;
+            background: #002147; /* Oxford Blue */
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section: contains the site logo and branding -->
+    <header>
+        <img src="images/logo new.png" alt="Course Core learning platform logo" length="400" width="400"> 
+    </header>
+   <!-- Main site navigation menu -->
+    <nav>
+        <ul>
+            <li> <a href="home.html">Home </a> </li>
+            <li> <a href="about us.html">About us </a></li>
+            <li> <a href="courses.html">Courses </a></li>
+            <li> <a href="contact us.html">Contact us </a></li>
+        </ul>
+    </nav>
+    <!-- Primary content area with hero section and aside courses list -->
+    <main>
+        <div class="container">
+            <div class="hero-section">
+                <h1>Welcome to Course Core!</h1>
+                <p>
+                    Here at Course Core, we offer a variety of online IT courses that give you insight into how software systems work, how to handle data with SQL, and how to use environments and IDEs to apply your knowledge practically.
+                </p>
+                <br>
+                <h4>What makes us different?</h4>
+                <p>We pride ourselves on keeping courses relevant to today’s digital age, helping students gain the skills to land tech jobs in prominent companies. Our expert instructors are dedicated to helping you reach your software skill goals.</p>
+                <br>
+                <br>
+                <a href="courses.html" class="cta-button"><b>Start Learning Today!</b></a>
+            </div>
+            <br>
+            <br>
+            <aside class="aside-bar">
+                <h3>Our courses include:</h3>
+                <ul>
+                    <li>Introduction to Programming (Python)</li>
+                    <li>Object-Oriented Programming (C++)</li>
+                    <li>Web Design Fundamentals (HTML & CSS)</li>
+                    <li>Data Management & SQL</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <!-- Page footer with copyright -->
+    <footer>
+        <p>&copy;2025 Course Core. All rights reserved.</p>
+    </footer>
+</body>
+</html>

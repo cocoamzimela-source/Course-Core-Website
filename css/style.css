@@ -1,0 +1,68 @@
+/* External stylesheet for Course Core website styling */
+
+/* Reset default margin, padding and set box-sizing for all elements */
+* {
+  margin: 0;         /* Remove default margin */
+  padding: 0;        /* Remove default padding */
+  box-sizing: border-box; /* Include padding and border in element’s total width and height */
+}
+/* Base body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Set default font */
+  line-height: 1.6;                         /* Set line height for readability */
+}
+/* Header styling */
+header {
+  background-color: #0C2238;    /* Dark blue background */
+  padding: 20px 0;              /* Vertical padding */
+  text-align: center;           /* Center align text */
+}
+/* Navigation bar container */
+nav {
+  background-color: #0077B6;    /* Bright blue background */
+  overflow: hidden;             /* Clear floats */
+}
+/* Navigation list styles */
+nav ul {
+  list-style: none;             /* Remove bullets */
+  display: flex;                /* Flex layout for horizontal menu */
+  justify-content: center;      /* Center items horizontally */
+}
+/* Navigation list items */
+nav ul li {
+  margin: 0.15px;               /* Tiny margin around list items */
+}
+/* Navigation links style */
+nav ul li a {
+  display: block;               /* Make links block-level for padding */
+  padding: 14px 20px;           /* Clickable padding */
+  color: #43FBFE;               /* Bright cyan text color */
+  text-decoration: none;        /* Remove underline */
+  transition: background 0.3s; /* Smooth background color transition */
+}
+/* Navigation links hover effect */
+nav ul li a:hover {
+  background-color: #0096C7;    /* Darker blue on hover */
+  text-decoration: underline;   /* Underline on hover */
+}
+/* Main content styling */
+main {
+  padding: 20px;                /* Internal spacing */
+  color: #FFFFFF;               /* White text */
+  background-color: #0C2238;   /* Dark blue background */
+  min-height: 500px;            /* Ensure minimum height */
+}
+/* Footer styling */
+footer {
+  background-color: #2a5ea1;    /* Blue background */
+  color: #1F2937;               /* Dark gray text */
+  text-align: center;           /* Center text */
+  padding: 15px;                /* Padding all sides */
+  position: relative;           /* Positioned relative */
+  bottom: 0;                   /* Sticks to bottom */
+  width: 100%;                 /* Full-width footer */
+}
+/* Enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}

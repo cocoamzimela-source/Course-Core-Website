@@ -1,0 +1,142 @@
+<!-- About Us page for Course Core with contact info, social links, and contact form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Core: About us</title>
+  <!-- Main external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- FontAwesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    /* Container for social media icons */
+    .social-links {
+      display: flex;  /* Arrange icons in a row */
+      gap: 20px;     /* Space between each icon */
+    }
+    /* Style for social media links */
+    .social-links a {
+      text-decoration: none;
+      font-size: 2rem;
+      color: #fff;  /* Icon color */
+      width: 50px;  /* Fixed width for uniform size */
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;  /* Circular shape */
+      transition: 0.3s;  /* Smooth transition for visual effects */
+    }
+    /* Instagram icon background color */
+    .social-links .instagram {
+      background: #e4405f;
+    }
+    /* Contact form styling */
+    form {
+      margin-top: 30px;
+      max-width: 500px;
+      background: #002147;
+      padding: 20px;
+      border-radius: 10px;
+      color: #fff;
+    }
+    /* Style for all labels in the form */
+    form label {
+      display: block; /* Ensure label occupies full width */
+      margin-bottom: 6px; /* Space below each label */
+      font-weight: bold;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%; /* Full width for consistency */
+      padding: 8px;
+      margin-bottom: 14px;
+      border: none; /* Remove default borders */
+      border-radius: 6px;
+    }
+    /* Allow only vertical resizing for textarea */
+    form textarea {
+      resize: vertical;
+    }
+    /* Submit button styling */
+    form input[type="submit"] {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 10px 20px; /* Padding for click area */
+      font-weight: bold;
+      cursor: pointer; /* Pointer cursor on hover */
+      border-radius: 6px;
+      transition: background-color 0.3s; 
+    }
+    /* Submit button hover effect */
+    form input[type="submit"]:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      box-shadow: 0 0 15px #007BFF; /* Glow effect */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Site logo -->
+    <img src="images/logo new.png" alt="Course Core website logo" length="400" width="400" />
+    <!-- Main navigation menu -->
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about us.html">About us</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact us.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact section heading -->
+    <h1 style="color: #00bfff; margin-bottom: 15px;"><b>How to contact us</b></h1>
+    <h2 style="color: #00bfff; margin-bottom: 15px;">To receive support and other information contact us via:</h2>
+    <!-- Contact details -->
+    <p>Email: coursecore@ac.za</p>
+    <p>Phone number: +27 78 567 829</p>
+    <p>Telephone number: 031 401 9683</p>
+    <br />
+    <!-- Social media follow prompt -->
+    <h3 style="color: #00bfff; margin-bottom: 15px;">Follow us:</h3>
+    <div class="social-links">
+      <a href="https://www.instagram.com/cour.secore/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <br />
+    <!-- Physical location heading -->
+    <h3 style="color: #00bfff; margin-bottom: 15px;">Where can you find us?</h3>
+    <p>55 Joyhurst Street, Woodhurst, Chatsworth</p>
+    <!-- Embedded Google map -->
+    <iframe
+      class="gmap_iframe"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://maps.google.com/maps?width=600&height=400&hl=en&q=55 Joyhurst st&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+    ></iframe>
+    <!-- Placeholder contact form -->
+    <h3 style="color: #00bfff; margin-top: 40px;">Send us a message</h3>
+    <form action="/submit_form" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name.." required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email.." required />
+      <label for="course">Course of Interest:</label>
+      <input type="text" id="course" name="course" placeholder="Which course are you interested in?" />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message.." style="height: 150px"></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <p>©2025 Course Core. All rights reserved.</p>
+  </footer>
+</body>
+</html>

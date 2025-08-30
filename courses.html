@@ -1,0 +1,117 @@
+<!-- Courses page for Course Core showing available courses with details and images -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Core: Courses</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <style>
+    /* Center the main heading */
+    h1 {
+      text-align: center;
+    }
+    /* Grid container for courses */
+    .course-grid {
+      display: grid; /* CSS Grid */
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+      gap: 20px; /* Gap between course cards */
+      margin-top: 30px; /* Space above grid */
+    }
+    /* Individual course cards */
+    .course-card {
+      background: #0077b0; /* Blue background */
+      border-radius: 10px; /* Rounded corners */
+      overflow: hidden; /* Clip overflowing content */
+      display: flex;
+      flex-direction: column; /* Stack content vertically */
+      transition: transform 0.3s ease; /* Smooth hover effect */
+    }
+    /* Lift effect on hover */
+    .course-card:hover {
+      transform: translateY(-5px);
+    }
+    /* Course thumbnail image */
+    .course-card img {
+      width: 100%; /* Full width */
+      height: 150px; /* Fixed height */
+      object-fit: cover; /* Maintain aspect ratio, crop if necessary */
+    }
+    /* Container for course content */
+    .course-content {
+      padding: 50px;
+    }
+    /* Course title */
+    .course-content h3 {
+      margin: 0 0 10px 0; /* Remove top margin, add bottom margin */
+      font-size: 0.9em;
+      color: #0DFFFF; /*Cyan color */
+    }
+    /* Styling for h1 and h3 headings */
+    h1, h3 {
+      color: #00bfff; /* Blue titles */
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with logo -->
+  <header>
+    <img src="images/logo new.png" alt="Course Core website logo" length="100" width="400" />
+  </header>
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about us.html">About us</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="contact us.html">Contact us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Available Courses</h1>
+    <div class="course-grid">
+      <!-- Course 1 card -->
+      <div class="course-card">
+        <img src="images/Course 1- Introduction to programming-Python.jpg" alt="Course 1" />
+        <h3>Introduction to Programming</h3>
+        <br />
+        <p>Learn the core concepts of coding using Python.</p>
+        <p>Duration: 9 weeks</p>
+        <p>Mode of Delivery: Instructor lead</p>
+      </div>
+      <!-- Course 2 card -->
+      <div class="course-card">
+        <img src="images/Course 2- Object-oriented programming-C++.jpg" alt="Course 2" />
+        <h3>Object-Oriented Programming</h3>
+        <br />
+        <p>Master classes and objects with C++.</p>
+        <p>Duration: 10 weeks</p>
+        <p>Mode of Delivery: Instructor lead</p>
+      </div>
+      <!-- Course 3 card -->
+      <div class="course-card">
+        <img src="images/Course 3- Web Design Fundamentals(HTML & CSS).jpg" alt="Course 3" />
+        <h3>Web Design Fundamentals</h3>
+        <br />
+        <p>Build responsive websites with HTML & CSS.</p>
+        <p>Duration: 12 weeks</p>
+        <p>Mode of Delivery: Instructor lead</p>
+      </div>
+      <!-- Course 4 card -->
+      <div class="course-card">
+        <img src="images/Course 4- Data Manangement and SQL.jpg" alt="Course 4" />
+        <h3>Data Management & SQL</h3>
+        <br />
+        <p>Store, query, and organize data like a pro.</p>
+        <p>Duration: 6 weeks</p>
+        <p>Mode of Delivery: Instructor lead</p>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <p>&copy;2025 Course Core. All rights reserved.</p>
+  </footer>
+</body>
+</html>
